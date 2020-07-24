@@ -1,7 +1,4 @@
-import * as log from "https://deno.land/std/log/mod.ts";
-
-
-import {Application , send} from "https://deno.land/x/oak@v5.0.0/mod.ts";
+import {log, Application , send} from "./deps.ts";
 import api from "./api.ts";
 // import { next } from "c:/users/abhishekjuneja/appdata/local/deno/deps/https/raw.githubusercontent.com/895640902b28edc36af13040a6dde6a8b4bd0e0b173ebaf0d0253244402525f9";
 
