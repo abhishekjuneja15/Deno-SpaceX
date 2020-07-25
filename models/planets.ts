@@ -1,6 +1,6 @@
 import {join} from "../deps.ts";
-import {BufReader} from "https://deno.land/std/io/bufio.ts";
-import{parse} from "https://deno.land/std/encoding/csv.ts";
+import {BufReader} from "../deps.ts";
+import{parse} from "../deps.ts";
 import * as _ from "https://raw.githubusercontent.com/lodash/lodash/4.17.15-es/lodash.js";
 
 interface Planet{
